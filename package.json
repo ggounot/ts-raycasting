@@ -1,0 +1,17 @@
+{
+  "name": "raycasting",
+  "version": "1.0.0",
+  "description": "A Simple Raycasting Engine",
+  "scripts": {
+    "start": "cp src/index.html dist/index.html && cp -r assets/ dist/ && tsc --watch",
+    "build": "cp src/index.html dist/index.html && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gérald Gounot",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

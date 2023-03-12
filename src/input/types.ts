@@ -1,0 +1,3 @@
+interface InputManager {
+  getInputs(): Input[];
+}
