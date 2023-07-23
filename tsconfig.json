@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "lib": ["dom", "es2017"],
     "target": "es6",
     "module": "none",
     "outFile": "./dist/rc.js",
